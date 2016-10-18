@@ -12,6 +12,7 @@ public class MainActivity extends TabActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Resources res = getResources();
         TabHost tabHost = (TabHost) findViewById(android.R.id.tabhost);
 
